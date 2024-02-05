@@ -17,10 +17,7 @@ with the latest update v1.0
 
 ![image](https://github.com/pandashashwat97/SwiftUISpeechToText/assets/82383705/ce17b364-8c0c-4748-8847-966fa3dc62a8)
 
-// You will get a text field with prdefined option to convert speech to text.
-
-![image](https://github.com/pandashashwat97/SwiftUISpeechToText/assets/82383705/284a5224-629c-459c-928c-6f9fbda0c092)
-
+You will get a text field with prdefined option to convert speech to text.
 ********
 
 Create a StateObject
