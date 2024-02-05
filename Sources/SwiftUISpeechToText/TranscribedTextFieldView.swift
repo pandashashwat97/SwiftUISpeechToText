@@ -1,9 +1,6 @@
-//
 //  SwiftUIView.swift
-//  
-//
 //  Created by Shashwat Panda on 05/02/24.
-//
+//  Text Field with Speech to text transcibe feature
 
 import SwiftUI
 public struct TranscribedTextFieldView: View{
