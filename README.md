@@ -15,18 +15,12 @@ Start by importing SwiftUISpeechToText
 UPADTES FOR BEGINERS: After the above steps you can now directly create a state variable and call a predefined view 
 with the latest update v1.0
 
-import SwiftUI
-import SwiftUISpeechToText
+![image](https://github.com/pandashashwat97/SwiftUISpeechToText/assets/82383705/ce17b364-8c0c-4748-8847-966fa3dc62a8)
 
-struct ContentView: View {
-    @State var searchString:String = "Search"
-     var body: some View{
-        VStack{
-            TranscribedTextFieldView( searchText: $searchString)
-        }
-    }
-}
 // You will get a text field with prdefined option to convert speech to text.
+
+![image](https://github.com/pandashashwat97/SwiftUISpeechToText/assets/82383705/284a5224-629c-459c-928c-6f9fbda0c092)
+
 ********
 
 Create a StateObject
