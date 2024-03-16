@@ -29,8 +29,8 @@ public class SpeechRecognizer: ObservableObject {
     private var task: SFSpeechRecognitionTask?
     private var recognizer: SFSpeechRecognizer? = nil
     
-    public init() {
-            recognizer = SFSpeechRecognizer()
+    public init(localeIdentifier: String = Locale.current.identifier) {
+            recognizer = SFSpeechRecognizer(locale: Locale(identifier: localeIdentifier))
             
             Task(priority: .background) {
                 do {
